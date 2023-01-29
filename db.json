@@ -1,0 +1,31 @@
+{
+  "otas": [
+    {
+      "id": 1,
+      "Name": "Agoda",
+      "Code": "AGODA",
+      "Person": "Chu",
+      "Contact": "+9198765432123",
+      "Email": "chu@agoda.com",
+      "Location": "Bangkok"
+    },
+    {
+      "id": 2,
+      "Name": "Goibibo",
+      "Code": "GO-MMT",
+      "Person": "Himanshu",
+      "Contact": "+91788954326",
+      "Email": "himanshu@gommt.com",
+      "Location": "India"
+    },
+    {
+      "id": 3,
+      "Name": "Hobse",
+      "Code": "HOBSE",
+      "Person": "Elay",
+      "Contact": "+911234567890",
+      "Email": "elay@hobse.com",
+      "Location": "India"
+    }
+  ]
+}

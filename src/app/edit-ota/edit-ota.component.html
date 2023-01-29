@@ -1,0 +1,45 @@
+<div style="text-align: center;">
+    <div>
+        <h2>Update OTA Details</h2>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Ota Name</mat-label>
+            <input matInput placeholder="Ota Name" [(ngModel)]="otaRecords.Name">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Ota Code</mat-label>
+            <input matInput placeholder="Ota Code" [(ngModel)]="otaRecords.Code">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Support Person</mat-label>
+            <input matInput placeholder="Support Person" [(ngModel)]="otaRecords.Person">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Contact No</mat-label>
+            <input matInput placeholder="Support Contact No" [(ngModel)]="otaRecords.Contact">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Support Email</mat-label>
+            <input matInput placeholder="support@ota.com" [(ngModel)]="otaRecords.Email">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Ota Location</mat-label>
+            <input matInput placeholder="country" [(ngModel)]="otaRecords.Location">
+        </mat-form-field>
+    </div>
+    <div>
+        <button mat-raised-button>Cancel</button>&nbsp;&nbsp;
+        <button mat-raised-button color="primary" type="button" (click)="editRecords()">Update Record</button>
+    </div>
+</div>
